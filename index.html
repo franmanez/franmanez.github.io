@@ -3,109 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Regalo de Boda · Paco & Tania</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    <title>Fran Máñez</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- Fondo decorativo -->
-    <div class="background">
-        <div class="glow glow-1"></div>
-        <div class="glow glow-2"></div>
-        <div class="stars"></div>
+    
+    <div class="container">
+        <div class="row min-vh-100 align-items-center justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+                
+                <div class="profile-section">
+                    <div class="profile-image-wrapper">
+                        <img src="profile.jpg" alt="Fran Máñez" class="profile-image">
+                    </div>
+                    
+                    <h1 class="name mt-4">Fran Máñez</h1>
+                    
+                    <div class="social-links mt-4">
+                        <a href="https://www.linkedin.com/in/franmanez" target="_blank" class="social-link">
+                            <i class="bi bi-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/franmanez" target="_blank" class="social-link">
+                            <i class="bi bi-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
-
-    <main class="landing">
-
-        <div class="top-label">
-            <span></span>
-            UNA MISIÓN MUY ESPECIAL
-            <span></span>
-        </div>
-
-        <div class="title-wrapper">
-
-            <p class="small-title">REGALO DE</p>
-
-            <h1>
-                Boda
-            </h1>
-
-            <div class="ornament">
-                <span></span>
-                <span class="diamond">◆</span>
-                <span></span>
-            </div>
-
-            <h2>
-                Paco <span>&</span> Tania
-            </h2>
-
-        </div>
-
-        <div class="escape-box">
-
-            <div class="escape-label">
-                ROOM ESCAPE
-            </div>
-
-            <p>
-                Una historia de amor.<br>
-                Una misión secreta.<br>
-                Y un regalo que tendréis que descubrir.
-            </p>
-
-        </div>
-
-        <button id="startButton" class="start-button">
-            <span>COMENZAR LA MISIÓN</span>
-            <span class="arrow">→</span>
-        </button>
-
-        <div class="bottom-text">
-            <span>ESTRENO</span>
-            <span class="dot">·</span>
-            <span>2026</span>
-        </div>
-
-    </main>
-
-    <!-- Pantalla posterior -->
-    <section id="mission" class="mission hidden">
-
-        <div class="mission-content">
-
-            <div class="mission-number">
-                01
-            </div>
-
-            <h2>
-                La película<br>
-                comienza ahora
-            </h2>
-
-            <p>
-                Paco y Tania, habéis sido seleccionados
-                para una misión muy especial.
-            </p>
-
-            <button id="backButton" class="start-button">
-                VOLVER
-            </button>
-
-        </div>
-
-    </section>
-
-    <script src="script.js"></script>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
